@@ -1,0 +1,52 @@
+ 
+entity MoM
+{
+    title String required
+    meetingDate String
+    docWritingDate String
+    docUpdatingDate String
+    attendees String
+    
+}
+
+entity Task
+{
+    name String required
+    subject String
+    notes String 
+}
+
+entity Decision
+{
+    name String required
+    subject String
+    notes String 
+}
+
+entity People
+{
+    name String required
+    subject String
+    notes String 
+    
+}
+
+entity Dossier
+{
+    name String required
+    notes String
+}
+
+entity TaskStatus
+{
+    code String required
+    name String 
+    notes String 
+}
+
+entity TaskPriority
+{
+    code String required
+    name String 
+    notes String 
+}
